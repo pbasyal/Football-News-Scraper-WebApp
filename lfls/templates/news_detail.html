@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- 	{% for elm in item%}
+		{{elm}}
+		<br>
+		<br>
+	{%endfor%}
+	<h3>{{item}}</h3> -->
+
+	<div class="jumbotron news-detail-title">
+		<center>
+		<h2>{{item.header.title}}</h2>
+		<h4>{{item.header.title_mini}}</h4>
+		</center>
+	</div>
+
+
+	<div class="container news-detail-content">
+		<div class="news-image">
+			<center>
+				<img src="{{item.photo.photo_url}}" alt="{{item.photo.photo_alt}}">
+				<br>
+			</center>
+		</div>
+		<div class="row" style="margin-top: 20px">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				{% if item.content.content%}
+					{{ item.content.content }}
+				{% endif %}
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+				
+	</div>
+
+{% endblock content %}

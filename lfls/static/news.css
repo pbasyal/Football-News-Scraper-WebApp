@@ -1,0 +1,71 @@
+/*COLOR PALLETE:
+#48ACF0 - azul
+#594236 - castanho escuro
+#6F584B - castanho claro
+#93A3BC - cinzento azulado
+#CCDDE2 - cinzento
+*/
+
+body{
+	font-family: "Arial";
+}
+
+/*Navbar normal*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	/*cp : azul*/
+	background-color: rgba(72,172,240,0.7);
+}
+
+/*cantos navbar*/
+.container-fluid{
+	background-color: rgb(72,172,240);
+}
+
+/*titulo do site - brand*/
+.navbar-default .navbar-brand{
+	color: white;
+}
+.navbar-default .navbar-brand:hover{
+	color: #6F584B;
+}
+
+/*menu*/
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #6F584B;
+}
+
+.footer{
+	/*cp: castanho escuro*/
+	background-color: rgba(89,66,54,0.7);
+}
+
+
+/* MAIS */
+.jumbotron{
+	background-color: #6F584B;
+	color:white;
+}
+
+.news-item{
+	padding-bottom:70px;
+	/*border: 1px solid red;*/
+}
+
+a:hover{
+	color:#ADB2D3;
+	text-decoration:none;
+}
+
+.news-detail-title{
+	background-color: #93A3BC;
+}
+
+.news-detail-content{
+	margin-bottom: 20px;
+	background-color: #CCDDE2;
+	padding-top:20px;
+	padding-bottom:50px;
+}

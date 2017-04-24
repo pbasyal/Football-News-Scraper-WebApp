@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<div class="jumbotron">
+		<center><h3>News</h3></center>
+	</div>
+
+	<div class="container">
+		{%if news%}
+			{% for elm in news %}
+			<div class="col-md-6 news-item">
+				<h3><a href="/news/{{elm.id}}">{{elm.title}}</a></h2>
+				<h5>{{elm.content}}</h4>
+			</div>
+			{% endfor %}
+		{%endif%}
+	</div>
+
+{% endblock content %}
+
