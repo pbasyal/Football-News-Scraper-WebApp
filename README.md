@@ -1,11 +1,20 @@
-# WebScrappingNews
+# WebScrappingNews Web-App
 #README:
 
-Python script using BeautifulSoup, urllib.request and smtplib to:
-- Make a request from a given website, in this case, a portuguese sports news website.
-- Use BeautifulSoup to retrieve html elements from the site.
-- Filter those elements using a keyword based method (see: listOfWords data structure)
-- Send the title and the body of the news by e-mail, with smtplib.
+## Technologies:
+* Python web scraper script.
+* Django & Jinja & Sqlite3
+* Html, Css, Js
+* Bootstrap
 
-Notes:
-Make sure that your e-mail account has the option to allow less secure connections.
+### Python script using BeautifulSoup, urllib.request:
+- Make a request from a given website, in this case, a portuguese sports news website.
+- Use BeautifulSoup to retrieve elements from the site.
+- Filter those elements using a keyword based method (see: listOfWords data structure)
+- Store the data in order to show it in the Django web app
+
+### Django web app:
+- Get's the filtered news, and displays them.
+- News are clickable. When you open them you can see the details and related photos.
+
+
