@@ -19,6 +19,6 @@
 
 ### Example working app:
 ![example 1](https://raw.githubusercontent.com/luisfmadelino/WebScrappingNews/master/print1.jpg)
-![example 2](https://raw.githubusercontent.com/luisfmadelino/WebScrappingNews/master/print1.jpg)
+![example 2](https://raw.githubusercontent.com/luisfmadelino/WebScrappingNews/master/print2.jpg)
 
 
