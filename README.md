@@ -17,4 +17,8 @@
 - Get's the filtered news, and displays them.
 - News are clickable. When you open them you can see the details and related photos.
 
+### Example working app:
+![example 1](https://raw.githubusercontent.com/luisfmadelino/WebScrappingNews/master/print1.jpg)
+![example 2](https://raw.githubusercontent.com/luisfmadelino/WebScrappingNews/master/print1.jpg)
+
 
