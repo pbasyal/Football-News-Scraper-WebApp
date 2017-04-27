@@ -3,7 +3,7 @@
 
 ## Technologies:
 * Python web scraper script.
-* Django & Jinja & Sqlite3
+* Django & Sqlite3
 * Html, Css, Js
 * Bootstrap
 
